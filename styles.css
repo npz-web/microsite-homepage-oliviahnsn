@@ -1,5 +1,13 @@
 /* your styles will go here!! */
 /* global */
+header h1{
+    color: #4A2040;
+font-family: Jomhuria;
+font-size: 79px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 header {
     display: flex;
     justify-content:space-between;
