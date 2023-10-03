@@ -16,3 +16,6 @@ line-height: normal;
 }
 
 /* homepage */
+.home img{
+    max-width: 100%;
+}
