@@ -1,1 +1,9 @@
 /* your styles will go here!! */
+nav a {
+    color: #4A2040;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
