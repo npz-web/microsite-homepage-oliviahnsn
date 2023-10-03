@@ -1,4 +1,11 @@
 /* your styles will go here!! */
+/* global */
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/*nav*/
 nav a {
     color: #4A2040;
 font-family: Outfit;
@@ -7,3 +14,5 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+/* homepage */
