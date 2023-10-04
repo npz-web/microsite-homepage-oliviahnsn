@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    background-color: #C2714F;
 }
 /*nav*/
 nav a {
@@ -28,7 +29,12 @@ body {
     background: url(crochetbg.jpg);
 }
  main img {
-    max-width: 30%;
+    width: 512px;
+    height: 678px;
+    border-radius: 678px;
+    border: 9px solid #4A2040;
+
+    
     
  }
  main h1 {
