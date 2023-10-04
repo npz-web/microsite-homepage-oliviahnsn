@@ -25,5 +25,5 @@ line-height: normal;
 
 /* homepage */
 body {
-    background-image:-webkit-image-set(crochetbg.jpg);
+    background: url(crochetbg.jpg);
 }
