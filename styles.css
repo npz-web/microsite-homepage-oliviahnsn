@@ -24,6 +24,6 @@ line-height: normal;
 }
 
 /* homepage */
-.home img{
-    max-width: 100%;
+body {
+    background-image:-webkit-image-set(crochetbg.jpg);
 }
