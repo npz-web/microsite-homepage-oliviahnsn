@@ -2,11 +2,11 @@
 /* global */
 header h1{
     color: #4A2040;
-font-family: Jomhuria;
-font-size: 79px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Jomhuria;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 header {
     display: flex;
@@ -16,14 +16,34 @@ header {
 /*nav*/
 nav a {
     color: #4A2040;
-font-family: Outfit;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* homepage */
 body {
     background: url(crochetbg.jpg);
 }
+ main img {
+    max-width: 30%;
+    
+ }
+ main h1 {
+    color: #4A2040;
+    font-family: Jomhuria;
+    font-size: 179px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ main h2 {
+    color: #4A2040;
+    font-family: Outfit;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
