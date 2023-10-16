@@ -1,4 +1,8 @@
 /* your styles will go here!! */
+*{
+   margin:0;
+   padding:0;
+}
 /* global */
 header h1{
     color: #4A2040;
@@ -13,6 +17,7 @@ header {
     justify-content:space-between;
     align-items: center;
     background-color: #C2714F;
+    width: 1512px;
 }
 /*nav*/
 nav a {
@@ -30,39 +35,45 @@ body {
     background: url(crochetbg.jpg);
 }
  main img {
-    width: 512px;
-    height: 678px;
-    border-radius: 678px;
+    width: 377px;
+    height: 499px;
+    border-radius: 700px;
     border: 9px solid #4A2040;
     display: inline-block;
     z-index: 2;
     position: relative;
+    top: 98px;
+    left: 913px;
  }
  
  main h1 {
     color: #4A2040;
     font-family: Jomhuria;
-    font-size: 179px;
+    font-size: 152px;
     font-style: normal;
     font-weight: 400;
     line-height: 0.2;
-    width: 699px;
+    width: 606px;
+    height: 100;
  }
  main h2 {
     color: #4A2040;
     font-family: Outfit;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 0.2;
+    line-height: 0;
+    width: 523;
+    height: 52px;
  }
  main div {
     background-color: #F6C5AF;
     display: inline-block;
-    width: 1159px;
-    height: 292px;
+    width: 1005px;
+    height: 254px;
     flex-shrink: 0;
     border-radius: 50px;
     z-index: 1;
     position:relative;
+
  }
