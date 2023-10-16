@@ -9,7 +9,7 @@ header h1{
     line-height: normal;
 }
 header {
-    display: flex;
+    display:flex;
     justify-content:space-between;
     align-items: center;
     background-color: #C2714F;
@@ -22,6 +22,7 @@ nav a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 
 /* homepage */
@@ -33,17 +34,19 @@ body {
     height: 678px;
     border-radius: 678px;
     border: 9px solid #4A2040;
-
-    
-    
+    display: inline-block;
+    z-index: 2;
+    position: relative;
  }
+ 
  main h1 {
     color: #4A2040;
     font-family: Jomhuria;
     font-size: 179px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 0.2;
+    width: 699px;
  }
  main h2 {
     color: #4A2040;
@@ -51,5 +54,15 @@ body {
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 0.2;
+ }
+ main div {
+    background-color: #F6C5AF;
+    display: inline-block;
+    width: 1159px;
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    z-index: 1;
+    position:relative;
  }
