@@ -8,6 +8,7 @@ main{
    display: flex;
    justify-content: center;
    align-items: center;
+   min-height: calc(100vh-136px);
 }
 header h1{
     color: #4A2040;
@@ -50,7 +51,7 @@ body {
     border: 9px solid #4A2040;
     display: inline-block;
     z-index: 2;
-    position: relative;
+    position: absolute;
     left: 80%;
  }
  
@@ -86,4 +87,7 @@ body {
  }
  section{
    display: flex;
+   position: relative;
+   align-items: center;
+   height: 100%;
  }
