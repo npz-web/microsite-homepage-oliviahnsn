@@ -7,9 +7,10 @@
 body {
    background: url(crochetbg.jpg);
    background-size: cover;
+   position: static;
 }
 /*header*/
-#logo {
+header img{
    width: 74px ;
 }
 header h1{
@@ -41,6 +42,14 @@ nav a {
 }
 /*footer*/
 footer{
+   background-color: #C2714F;
+   padding: 5px;
+   color:#FDF2ED;
+   font-family: Outfit;
+   font-size: 12px;
+   text-align: center;
+}
+.home footer{
    background-color: #4A2040;
    padding: 5px;
    color:#FDF2ED;
@@ -106,15 +115,33 @@ footer{
 .stitches main h1 { 
    color: #4A2040;
    font-family: Jomhuria;
-   font-size: 152px;
+   font-size: 250px;
    font-style: normal;
    font-weight: 400;
+
+.stitches div{
+   background-color: #4A2040;
+}
+
+.stitches p {
+   color:#FDF2ED;
+   font-family: Outfit;
+   font-weight: 400;
+   font-size: 24px;
+}
+div h2{
+   color: #FDF2ED;
+   font-family: Jomhuria;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 400;
+}
 }
 /*supplies*/
 .supplies main h1 { 
    color: #4A2040;
    font-family: Jomhuria;
-   font-size: 152px;
+   font-size: 250px;
    font-style: normal;
    font-weight: 400;
 }
@@ -122,7 +149,7 @@ footer{
 .patterns main h1 { 
    color: #4A2040;
    font-family: Jomhuria;
-   font-size: 152px;
+   font-size: 250px;
    font-style: normal;
    font-weight: 400;
 }
