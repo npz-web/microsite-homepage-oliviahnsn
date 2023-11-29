@@ -41,6 +41,9 @@ nav a {
    margin-right:40px;
 }
 /*body stuff*/
+div{
+   background-color: #4A2040;
+}
 h2{
    font-family: Jomhuria;
    font-style: normal;
@@ -48,16 +51,16 @@ h2{
    font-size: 152px;
    color: #FDF2ED;
 }
-p{
+main p{
    font-family: Outfit;
-   font-size: 24px;
+   font-size: 30px;
    font-style: normal;
    font-weight: 400;
    color: #FDF2ED;
 }
 ul{
    font-family: Outfit;
-   font-size: 24px;
+   font-size: 30px;
    font-style: normal;
    font-weight: 400;
    color: #FDF2ED;
@@ -68,6 +71,9 @@ ul{
    font-style: normal;
    font-weight: 400;
    color: #FDF2ED
+}
+iframe{
+   margin: 100px;
 }
 /*footer*/
 footer{
@@ -148,9 +154,6 @@ footer{
    font-style: normal;
    font-weight: 400;
 
-.stitches div{
-   background-color: #4A2040;
-}
 
 .stitches p {
    color:#FDF2ED;
