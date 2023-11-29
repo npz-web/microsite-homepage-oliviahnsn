@@ -204,4 +204,12 @@ div h2{
       color:#F6C5AF;
       text-decoration:underline;
    }
+   main a{
+      font-size: 30px;
+      font-weight: 400;
+   }
+   main a:hover, main a:focus{
+      color: #FDF2ED;
+      text-decoration:none;
+   }
 }
