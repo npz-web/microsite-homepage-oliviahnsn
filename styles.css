@@ -72,6 +72,13 @@ ul{
    font-weight: 400;
    color: #FDF2ED
 }
+main a{
+   font-family: Outfit;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   color:#F6C5AF;
+}
 iframe{
    margin: 100px;
 }
