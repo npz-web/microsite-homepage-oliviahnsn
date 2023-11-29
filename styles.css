@@ -7,9 +7,15 @@
 body {
    background: url(crochetbg.jpg);
    background-size: cover;
-   position: static;
+   background-attachment:fixed;
 }
 /*header*/
+#logo {
+   background: transparent;
+   display: flex;
+    align-items: flex-end;
+}
+
 header img{
    width: 74px ;
 }
@@ -20,7 +26,7 @@ header h1{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 181px;
+    padding-left: 8px;
 }
 header {
     display:flex;
@@ -64,9 +70,12 @@ ul{
    font-style: normal;
    font-weight: 400;
    color: #FDF2ED;
-   list-style-type: square;
 }
-.intro p{
+li{
+   list-style-type: square;
+   display: list-item;
+}
+.intro{
    font-family: Outfit;
    font-size: 40px;
    font-style: normal;
