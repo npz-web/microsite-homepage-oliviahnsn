@@ -40,6 +40,35 @@ nav a {
    line-height: normal;
    margin-right:40px;
 }
+/*body stuff*/
+h2{
+   font-family: Jomhuria;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 152px;
+   color: #FDF2ED;
+}
+p{
+   font-family: Outfit;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   color: #FDF2ED;
+}
+ul{
+   font-family: Outfit;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   color: #FDF2ED;
+}
+.intro p{
+   font-family: Outfit;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 400;
+   color: #FDF2ED
+}
 /*footer*/
 footer{
    background-color: #C2714F;
