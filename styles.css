@@ -64,6 +64,7 @@ ul{
    font-style: normal;
    font-weight: 400;
    color: #FDF2ED;
+   list-style-type: square;
 }
 .intro p{
    font-family: Outfit;
